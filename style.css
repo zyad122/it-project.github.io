@@ -207,20 +207,4 @@ table td{
         padding: 50px;
     }
 }
-@media (max-width: 768px){
 
-    .loga{
-        padding-left: 20px;
-        font-size: 20px;
-    }
-
-    div ul{
-        flex-direction: column; /* يخليهم تحت بعض */
-        align-items: center;
-        width: 100%;
-    }
-
-    header li{
-        padding: 10px 0;
-    }
-}
