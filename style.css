@@ -43,46 +43,36 @@ header li a{
     
 
 header li a:hover{
-    color: #0000;
+    color: black;
     border-bottom: 2px solid black;
 }
 section{
-    padding: 100px 200px;
+    padding: 200px 5px;
 }
 .main{
     width: 100%;
     min-height: 80vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    padding-top: 55vh;
     background-image: url(img/bac.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.main h2{
-    color: black;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 30px;
-   margin-right: 60px;
-}
-.main h3{
-    color: #fFF;
-    font: size 25px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-
-}
+.main div{
+   margin-bottom:300px ;
+    }
 .main a{
     text-decoration: none;
     color: #fFFF;
+   
     padding: 15px 50px;
     border: 1px solid ;
     border-radius: 15px;
     background-color: blue;
-    
-    margin-left: 50px;
 }
 .main a:hover{
     background-color: black;
@@ -231,5 +221,15 @@ table td{
 
     header li a{
         font-size: 12px;
+    }
+}
+@media(max-width:765px){
+    table{
+        width: 125px;
+        height: 200px;
+    }
+    table th{
+        font-size: 22px;
+        font-weight: 500;
     }
 }
